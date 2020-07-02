@@ -10,6 +10,8 @@ When creating groups in [System Center Operations Manager (SCOM)](https://docs.m
 > ### Caution
 >
 > If the **Asset Status** or **Notes** fields has a value when the agent is deleted, this will leave an orphaned Windows Computer object. To ensure the computer object properly deleted, set the **Asset Status** or **Notes** field to **`$null`** prior to deleting the agent.
+>
+>If you find you have orphaned objects, refer to Kevin Holman's article about [Deleting and Purging data from the SCOM Database](https://kevinholman.com/2018/05/03/deleting-and-purging-data-from-the-scom-database/).
 
 ## Asset Status Enum
 
